@@ -1,0 +1,34 @@
+# Binaries
+pitest3
+pitest3.exe
+**/pitest3
+**/pitest3.exe
+
+# Test binary
+*.test
+
+# Compiled extension
+*.so
+
+# Output of tests
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+**/*.exe
